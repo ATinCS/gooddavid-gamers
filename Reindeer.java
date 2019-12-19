@@ -74,7 +74,29 @@ public class Reindeer
     public String toString()
     {
         // TODO: code here
-        return "interesting description";
+        String nose = "";
+        String en = "";
+        if(noseGlows)
+        {
+            nose = "glows";
+        }
+        else
+        {
+            nose = "doesn't glow";
+        }
+        if(energy > 10)
+        {
+            en = "very";
+        }
+        else if(energy > 5)
+        {
+            en = "";
+        }
+        else
+        {
+            en = "not";
+        }
+        return "The reinders name is " + name + ", it's nose " + nose + "and it is " + en + " energetic.";
     }
     
     

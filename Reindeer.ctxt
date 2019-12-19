@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Reindeer
+comment0.text=\n\ class\ Reindeer\ \n\ Learn\ GitHub\ version\ control\ for\ collaborative\ projects\n\ Human\ Team\ Member\ Names\:\ \n\ December\ 19,\ 2019\n
+comment1.params=theName\ theNoseGlows\ theEnergy
+comment1.target=Reindeer(java.lang.String,\ boolean,\ int)
+comment1.text=\n\ 3-Args\ Constructor\ for\ objects\ of\ class\ Reindeer\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=boolean\ doesNoseGlow()
+comment4.params=
+comment4.target=int\ getEnergyLevel()
+comment5.params=name
+comment5.target=void\ changeName(java.lang.String)
+comment6.params=nG
+comment6.target=void\ setNoseAbility(boolean)
+comment7.params=amountOfChange
+comment7.target=void\ changeEnergy(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=java.lang.String\ determineTeamHappiness()
+numComments=10
