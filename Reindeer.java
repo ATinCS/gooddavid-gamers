@@ -83,8 +83,17 @@ public class Reindeer
     // and or formulas using totalNumOfReindeer, totalLights
     public String determineTeamHappiness()
     {
-        // TODO: code here
-        return "how happy is the team of reindeer"; 
+        // Link's code
+        if(totalLights >= numOfReindeer/2)
+        {
+            return "These reindeer are extremely happy";
+        }
+        if(totalLights <= numOfReindeer/3)
+        {
+            return "These reindeer seem a little depressed";
+        }
+        return "These reindeer are satisfied";
+            
     }
         
 }
