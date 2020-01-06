@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Reindeer
-comment0.text=\n\ class\ Reindeer\ \n\ Learn\ GitHub\ version\ control\ for\ collaborative\ projects\n\ Human\ Team\ Member\ Names\:\ \n\ December\ 19,\ 2019\n
+comment0.text=\n\ class\ Reindeer\n\ Learn\ GitHub\ version\ control\ for\ collaborative\ projects\n\ Human\ Team\ Member\ Names\:\n\ December\ 19,\ 2019\n
 comment1.params=theName\ theNoseGlows\ theEnergy
 comment1.target=Reindeer(java.lang.String,\ boolean,\ int)
 comment1.text=\n\ 3-Args\ Constructor\ for\ objects\ of\ class\ Reindeer\n
