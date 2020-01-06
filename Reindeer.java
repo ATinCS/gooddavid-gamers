@@ -23,13 +23,12 @@ public class Reindeer
      */
     public Reindeer(String theName, boolean theNoseGlows, int theEnergy)
     {
-        // TO DO: initialise the reindeer's attributes
+        //initializing the static variables
         name = theName;
         noseGlows = theNoseGlows;
         energy = theEnergy;
 
-        // TO DO: update the class (static variables)
-
+        //update the totals
         numOfReindeer++;
 
         if(theNoseGlows)
