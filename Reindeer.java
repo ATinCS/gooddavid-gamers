@@ -39,30 +39,23 @@ public class Reindeer
         totalEnergy += theEnergy;
     }
 
-    // TODO: Write a getter method for each instance variable
     public String getName()
     {
-        // TODO: code here
         return name;
     }
 
-    
     public boolean getNoseGlows()
     {
         return noseGlows;
     }
-       
-
 
     public boolean doesNoseGlow()
     {
-        // TODO: code here
         return noseGlows;
     }
 
     public int getEnergyLevel()
     {
-        // TODO: code here
         return energy;
     }
 
@@ -75,13 +68,16 @@ public class Reindeer
 
     public void setNoseAbility(boolean nG)
     {
-        // TODO: code here (don't forget to also update totalLights)
             noseGlows = nG;
+
+            if(nG == false)
+              totalLights--;
+            else
+              totalLights++;
     }
 
     public void changeEnergy(int amountOfChange)
     {
-        // TODO: code here (don't forget to also update totalEnergy)
             energy = energy + amountOfChange;
             if(energy>5)
             {
@@ -89,10 +85,9 @@ public class Reindeer
             }
     }
 
-    // interesting description of the reindeer
+    //returns all the reindeer information
     public String toString()
     {
-        // TODO: code here
         String nose = "";
         String en = "";
         if(noseGlows)
