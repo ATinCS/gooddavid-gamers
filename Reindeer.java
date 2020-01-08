@@ -99,11 +99,11 @@ public class Reindeer
         {
             nose = "doesn't glow";
         }
-        if(energy > 10)
+        if(energy > 4)
         {
             en = "very";
         }
-        else if(energy > 5)
+        else if(energy > 2)
         {
             en = "";
         }
