@@ -126,11 +126,11 @@ public class Reindeer
     {
 
         // Link's code
-        if(totalLights >= numOfReindeer/2)
+        if(totalLights >= numOfReindeer)
         {
             return "These reindeer are extremely happy";
         }
-        if(totalLights <= numOfReindeer/3)
+        if(totalLights <= numOfReindeer/2)
         {
             return "These reindeer seem a little depressed";
         }
