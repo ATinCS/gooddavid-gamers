@@ -103,11 +103,11 @@ public class Reindeer
         {
             nose = "doesn't glow";
         }
-        if(energy > 10)
+        if(energy > 4)
         {
             en = "very";
         }
-        else if(energy > 5)
+        else if(energy > 1)
         {
             en = "";
         }
@@ -115,7 +115,7 @@ public class Reindeer
         {
             en = "not";
         }
-        return "The reinders name is " + name + ", it's nose " + nose + "and it is " + en + " energetic.";
+        return "The reinders name is " + name + ", it's nose " + nose + " and it is " + en + " energetic.";
     }
 
 
