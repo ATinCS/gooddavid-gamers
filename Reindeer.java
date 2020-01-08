@@ -89,29 +89,17 @@ public class Reindeer
         String nose = "";
         String en = "";
         if(noseGlows)
-        {
             nose = "glows";
-        }
         else
-        {
             nose = "doesn't glow";
-        }
+
         if(energy > 4)
-        {
             en = "very";
-        }
-<<<<<<< HEAD
-        else if(energy >= 1)
-=======
         else if(energy > 2)
->>>>>>> c5b7349e0e9e9e3235a5218d39a420b0d6fa77b5
-        {
             en = "";
-        }
         else
-        {
             en = "not";
-        }
+
         return "The reinders name is " + name + ", it's nose " + nose + " and it is " + en + " energetic.";
     }
 
