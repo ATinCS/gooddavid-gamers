@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=linkReinRunner
+comment0.text=\n\ Write\ a\ description\ of\ class\ linkReinRunner\ here.\n\n\ @author\ Link\ Erickson\n\ @version\ v1.0.0.0.0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ main\ method\ for\ running\ Reindeer\ methods\ \n
+numComments=2

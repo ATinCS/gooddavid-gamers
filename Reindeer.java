@@ -2,7 +2,7 @@
 /**
  * class Reindeer
  * Learn GitHub version control for collaborative projects
- * Human Team Member Names:
+ * Human Team Member Names: Justin K, Mikie M, Max N, Link E, David M
  * December 19, 2019
  */
 public class Reindeer
@@ -59,10 +59,8 @@ public class Reindeer
         return energy;
     }
 
-    // TODO: Write a setter method for each instance variable
     public void changeName(String name)
     {
-        // TODO: code here
             name = name;
     }
 
@@ -118,9 +116,7 @@ public class Reindeer
     }
 
 
-    // method that returns the happiness of the entire team
-    // of reindeer, based on any old combination of conditions
-    // and or formulas using totalNumOfReindeer, totalLights
+    //Determines the happiness of the reindeers based on the percent of them that have glowing noses
     public String determineTeamHappiness()
     {
 
